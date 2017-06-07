@@ -3,8 +3,9 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://karaf.apache.org/xmlns/features/v1.0.0 http://karaf.apache.org/xmlns/features/v1.0.0">
 
-        <repository>mvn:org.ops4j.pax.jdbc/pax-jdbc-features/0.5.0/xml/features</repository>
+        <repository>mvn:org.ops4j.pax.jdbc/pax-jdbc-features/0.9.0/xml/features</repository>
         <repository>mvn:org.hibernate/hibernate-osgi/5.2.9.Final/xml/karaf</repository>
+        <repository>mvn:org.apache.aries.jpa/jpa-features/2.6.1/xml/features</repository>
         
     <feature name="tramiel-all" version="1.0.0-SNAPSHOT">
             <configfile finalname="etc/org.ops4j.datasource-authentication.cfg" override="true">mvn:org.tramiel/demofeatures/1.0.0-SNAPSHOT/cfg/authentication</configfile>
